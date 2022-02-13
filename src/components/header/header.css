@@ -1,0 +1,58 @@
+@import "../../global.css";
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    flex-flow: column;
+    padding: 8rem 2rem;
+    width: 30rem;
+    text-align: center;
+}
+#menu-bars{
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 10000;
+    background: var(--main-color);
+    color: #fff;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    font-size: 3rem;
+    cursor: pointer;
+    display: none;
+
+}
+.header .logo{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.header .logo span{
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+.header .navbar a{
+    display: block;
+    font-size: 2rem;
+    color: white;
+    margin: 2rem 0;
+}
+.header .navbar a:hover{
+    letter-spacing: 0.2rem;
+    color: var(--main-color);
+}
+.header .follow a{
+    font-size: 2.5rem;
+    color: white;
+    margin: 0 0.7rem;
+}
+.header .follow a:hover{
+    color: var(--main-color);
+}
