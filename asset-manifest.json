@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.4bb0bf9c.css",
-    "main.js": "/static/js/main.390f84eb.js",
-    "index.html": "/index.html",
-    "main.4bb0bf9c.css.map": "/static/css/main.4bb0bf9c.css.map",
-    "main.390f84eb.js.map": "/static/js/main.390f84eb.js.map"
+    "main.css": "/civil-jo/static/css/main.4bb0bf9c.css",
+    "main.js": "/civil-jo/static/js/main.390f84eb.js",
+    "index.html": "/civil-jo/index.html",
+    "main.4bb0bf9c.css.map": "/civil-jo/static/css/main.4bb0bf9c.css.map",
+    "main.390f84eb.js.map": "/civil-jo/static/js/main.390f84eb.js.map"
   },
   "entrypoints": [
     "static/css/main.4bb0bf9c.css",
